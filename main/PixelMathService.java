@@ -74,7 +74,7 @@ public interface PixelMathService {
 	 * @return
 	 */
 	public static int reverseAlpha(int pix){
-		return (~pix)+0xff000000;
+		return (~pix)|0xff000000;
 	}
 	
 	/**
