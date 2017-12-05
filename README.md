@@ -3,9 +3,10 @@
 
 运行环境 jdk8 以上.
 
-实例图:
+示例图:
+![示例图](https://github.com/cn-Gongfu/PictureColor/raw/master/demo.png)
 
-
+### 颜色计算代码
 ```java
 	
 	/**
