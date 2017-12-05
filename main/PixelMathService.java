@@ -1,9 +1,19 @@
-# PictureColor
-图片调色的java实现
+package main;
 
-运行环境 jdk8 以上.
-
-```java
+/**
+ * 像素计算
+ * @author yangb
+ *
+ */
+@FunctionalInterface
+public interface PixelMathService {
+	
+	/**
+	 * 像素计算
+	 * @param pix
+	 * @return
+	 */
+	int pixMath(int pix);
 	
 	/**
 	 * 蓝色变换
@@ -93,6 +103,4 @@
 	public static int bAlpha(int pix){
 		return pix & 0xff0000ff;
 	}
-
-```
-
+}
